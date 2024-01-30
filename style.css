@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://wallpapers.com/images/hd/blue-aesthetic-moon-df8850p673zj275y.jpg) ;
+  background-repeat: no-repeat;
+}
+form{
+  border: 0.5px solid rgba(255, 255, 255, 2);
+  padding: 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: #4158D0;
+ background: transparent;
+}
+.inputbox{
+  width: 380px;
+}
+.input{
+  margin: 15px 0px;
+}
+.input2{
+  margin: 15px 0px;
+}
+.btn{
+  padding: 5px 50px;
+  color: white;
+  border: none;
+  background-color: #4158D0;
+  border-radius: 60px;
+}
+input{
+  background: fixed;
+  width: 70%;
+  border-radius: 5px;
+  border: 0.1px solid skyblue;
+  background: transparent;
+}
+input::placeholder{
+  color: white;
+}
